@@ -1,0 +1,22 @@
+{
+  "name": "kbr-wordpress",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "autoprefixer": "9",
+    "next": "12.0.7",
+    "postcss": "7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7"
+  }
+}
