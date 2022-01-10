@@ -24,24 +24,20 @@ export default function Meta() {
         
         <link rel = "mask-icon"
         href = "/favicon/safari-pinned-tab.svg"
-        color = "#000000" />
+        color = "#FF7300" />
         
         <link rel = "shortcut icon"
-        href = "../public/favicon/favicon.ico" / >
+        href = "/favicon/favicon.ico" / >
         
         <meta name = "msapplication-TileColor"
-        content = "#000000" / >
+        content = "#FF7300" / >
         
         <meta name = "msapplication-config"
         content = "/favicon/browserconfig.xml" / >
         
         <meta name = "theme-color"
         content = "#FF7300" / >
-        
-        <link rel = "alternate"
-        type = "application/rss+xml"
-        href = "/feed.xml" / >
-        
+    
         <meta name = "description"
         content = {
             `Homepage of KBR.`
