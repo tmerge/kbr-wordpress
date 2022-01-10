@@ -7,6 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'kbr-orange': '#FF7300',
+        'kbr-blue': '#5CBFCF',
+        'kbr-green': '#49C5B1',
+        'kbr-red': '#C5003E',
+        'kbr-turquoise': '#0094A2',
+      },
       fontFamily: {
         sans: ['Fira Sans', ...defaultTheme.fontFamily.sans],
       }
