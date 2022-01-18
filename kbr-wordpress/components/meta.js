@@ -7,27 +7,22 @@ export default function Meta() {
         
         <link rel = "apple-touch-icon"
         sizes = "180x180"
-        href = "/favicon/apple-touch-icon.png" />
+        href = "/favicons/apple-touch-icon.png" />
         
         <link rel = "icon"
         type = "image/png"
         sizes = "32x32"
-        href = "/favicon/favicon-32x32.png" />
-        
-        <link rel = "icon"
-        type = "image/png"
-        sizes = "16x16"
-        href = "/favicon/favicon-16x16.png" />
+        href = "/favicons/favicon-32x32.png" />
         
         <link rel = "manifest"
-        href = "/favicon/site.webmanifest" / >
+        href = "/favicons/site.webmanifest" / >
         
         <link rel = "mask-icon"
-        href = "/favicon/safari-pinned-tab.svg"
+        href = "/favicons/safari-pinned-tab.svg"
         color = "#FF7300" />
         
         <link rel = "shortcut icon"
-        href = "/favicon/favicon.ico" / >
+        href = "/favicons/favicon.ico" / >
         
         <meta name = "msapplication-TileColor"
         content = "#FF7300" / >
@@ -43,7 +38,7 @@ export default function Meta() {
             `Homepage of KBR.`
         }
         /> 
-        
+        <title>KBR</title>
         <meta property = "og:image"
         content = {
             HOME_OG_IMAGE_URL

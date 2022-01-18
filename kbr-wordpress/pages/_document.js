@@ -9,8 +9,8 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet"/>
         </Head>
-        <body>
-          <Main />
+        <body className='overflow-y-scroll bg-white dark:bg-gray-700'>
+          <Main/>
           <NextScript />
         </body>
       </Html>
