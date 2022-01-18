@@ -8,6 +8,7 @@ export default function Home() {
 
   return (
     <>
+    <div className=''></div>
     <div className={`text-red ${darkMode && "dark"}`}>
       <Layout >
         <Container>

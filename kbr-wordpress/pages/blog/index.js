@@ -9,7 +9,7 @@ export default function index({posts}) {
         <Layout>
             <Container>
                 <input className='flex justify-self-center' placeholder='Suche...'></input>
-                <h1 className='text-4xl'>Blog</h1>
+                <h1 className='text-4xl text-center mt-8'>Blog</h1>
                 {posts.map(p => {
                     return (
                         <Link href="/blog/[slug]" as={`/blog/${p.slug}`}><p className="my-2" key={p.id}>{p.title}</p></Link>
